@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BlueHeron.Collections.PipeBase(Of TInput, TOutput)">
+    <Position X="0.75" Y="5.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QQQAIAAAQACAAAAAAgoAAIAAAAAAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>Pipeline\PipeBase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BlueHeron.Collections.PipeLine" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAQAYCAAAAAAAAAAAIAAAAAgABAAABAAACAAEAI=</HashCode>
+      <FileName>Pipeline\PipeLine.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BlueHeron.Collections.DebugOutputPipe(Of TInput)">
+    <Position X="0.75" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAgAAAIAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Pipeline\DebugOutputPipe.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueHeron.Collections.Generic.BinaryHeap(Of TSource, TKey)">
+    <Position X="8.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAAAAEiAAAAIAEKAACQAEBAAAAAUAAQAIAAAE=</HashCode>
+      <FileName>Generic\BinaryHeap.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueHeron.Collections.Generic.HashTable(Of TKey, TValue)">
+    <Position X="13.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEAAAACAAABAAEAAAAAAAAAAAgAAAQABA=</HashCode>
+      <FileName>Generic\TypedHashSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueHeron.Collections.Generic.LinkedHashSet(Of T)">
+    <Position X="4.75" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAIAAAEAAAAAQAEAAAAAAYAAAA=</HashCode>
+      <FileName>Generic\LinkedHashSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueHeron.Collections.Generic.PairedSequence(Of TSource, TTarget)">
+    <Position X="8.75" Y="6" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAFAAAgAAAAACAQAEAAAACAAAAAAAA=</HashCode>
+      <FileName>Generic\PairedSequence.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BlueHeron.Collections.IPipe">
+    <Position X="0.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAQACAAAAAAgAAAIAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPipe.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
